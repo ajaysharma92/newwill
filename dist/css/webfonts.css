@@ -42,7 +42,7 @@
 
 @font-face {
     font-family: 'Lato Hairline';
-    src: url('../fonts/webused/Lato/Lato-HairlineItalic.woff2') format('woff2'), url(../fonts/webused/Lato/'Lato-HairlineItalic.woff') format('woff');
+    src: url('../fonts/webused/Lato/Lato-HairlineItalic.woff2') format('woff2'), url('../fonts/webused/Lato/Lato-HairlineItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
