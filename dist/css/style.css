@@ -1,0 +1,38 @@
+.form-inner {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    width: 350px;
+}
+
+.form-fields input[type="text"],
+.form-fields input[type="email"],
+.form-fields input[type="number"],
+textarea,
+select {
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.form-fields input[type="submit"] {
+    background: #b70000;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+}
