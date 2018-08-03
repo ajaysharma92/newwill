@@ -403,3 +403,58 @@
     font-weight: normal;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'Conv_Clarendon_Bold_BT';
+    src: url('../fonts/webused/Clarendon_Bold_BT.eot');
+    src: url('../fonts/webused/Clarendon_Bold_BT.woff') format('woff'), url('../fonts/webused/Clarendon_Bold_BT.ttf') format('truetype'), url('../fonts/webused/Clarendon_Bold_BT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Clarendon_Condensed_BT';
+    src: url('../fonts/webused/Clarendon_Condensed_BT.eot');
+    src: local('Ã¢ËœÂº'), url('../fonts/webused/Clarendon_Condensed_BT.woff') format('woff'), url('.../fonts/webused/Clarendon_Condensed_BT.ttf') format('truetype'), url('../fonts/webused/Clarendon_Condensed_BT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Clarendon_Bold_Condensed_BT';
+    src: url('../fonts/webused/Clarendon_Bold_Condensed_BT.eot');
+    src: local('Ã¢ËœÂº'), url('../fonts/webused/Clarendon_Bold_Condensed_BT.woff') format('woff'), url('../fonts/webused/Clarendon_Bold_Condensed_BT.ttf') format('truetype'), url('../fonts/webused/Clarendon_Bold_Condensed_BT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Clarendon_BT';
+    src: url('../fonts/webused/Clarendon_BT.eot');
+    src: local('Ã¢ËœÂº'), url('../fonts/webused/Clarendon_BT.woff') format('woff'), url('../fonts/webused/Clarendon_BT.ttf') format('truetype'), url('../fonts/webused/Clarendon_BT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Clarendon_Heavy_BT';
+    src: url('../fonts/webused/Clarendon_Heavy_BT.eot');
+    src: local('Ã¢ËœÂº'), url('../fonts/webused/Clarendon_Heavy_BT.woff') format('woff'), url('../fonts/webused/Clarendon_Heavy_BT.ttf') format('truetype'), url('../fonts/webused/Clarendon_Heavy_BT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Clarendon_Light_BT';
+    src: url('../fonts/webused/Clarendon_Light_BT.eot');
+    src: local('Ã¢ËœÂº'), url('../fonts/webused/Clarendon_Light_BT.woff') format('woff'), url('../fonts/webused/Clarendon_Light_BT.ttf') format('truetype'), url('../fonts/webused/Clarendon_Light_BT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avantgardefbold';
+    src: url('../fonts/webused/avantgardef-bold-webfont.woff2') format('woff2'), url('../fonts/webused/avantgardef-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

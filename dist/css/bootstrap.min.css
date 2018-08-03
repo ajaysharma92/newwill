@@ -22,7 +22,7 @@
     --success: #28a745;
     --info: #17a2b8;
     --warning: #ffc107;
-    --danger: #dc3545;
+    --danger: #b70000;
     --light: #f8f9fa;
     --dark: #343a40;
     --breakpoint-xs: 0;
@@ -2652,8 +2652,8 @@ fieldset:disabled a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #b70000;
+    border-color: #b70000
 }
 
 .btn-danger:hover {
@@ -6392,7 +6392,7 @@ button.bg-warning:hover {
 }
 
 .bg-danger {
-    background-color: #dc3545!important
+    background-color: #b70000!important
 }
 
 a.bg-danger:focus,
@@ -9172,12 +9172,12 @@ a.text-warning:hover {
 }
 
 .text-danger {
-    color: #dc3545!important
+    color: #b70000!important
 }
 
 a.text-danger:focus,
 a.text-danger:hover {
-    color: #bd2130!important
+    color: #d82020!important
 }
 
 .text-light {
