@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="dist/css/owl.carousel.min.css">
     <link rel="stylesheet" href="dist/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="dist/css/flags.min.css">
+    <link rel="stylesheet" href="dist/css/finalCustom.css">
+
+    <link rel="stylesheet" type="text/css" href="dist/css/finalCustom.css" />
+    <script type="text/javascript" src="dist/js/finalCustom.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -219,6 +225,117 @@
         </div>
         <div class="mt-5 mb-4">
             <h3 class="m-0 heading-txt position-relative text-danger">Country Offer</h3>
+        </div>
+        <div class="service-section mt-5 mb-5">
+            <div class="row form-group">
+                <div class="col-sm-12 col-xs-12 service-col">
+                    <h3><span class="text-danger">Countries Offered</span></h3>
+                </div>
+            </div>
+
+            <ul id="flexiselDemo3" class="carousel-tabs">
+                <li onclick="activePanel('canada');"><img src="http://demo.kodersnkreators.com/wp-content/uploads/2018/04/canada_img-250x180.jpg" /></li>
+                <li onclick="activePanel('australia');"><img src="http://demo.kodersnkreators.com/wp-content/uploads/2018/04/australia_img-250x180.jpg" /></li>
+                <li onclick="activePanel('germany');"><img src="http://demo.kodersnkreators.com/wp-content/uploads/2018/04/germany-image.jpg" /></li>
+                <!--<li onclick="activePanel('canada');"><img src="http://demo.kodersnkreators.com/wp-content/uploads/2018/04/canada_img-250x180.jpg" /></li>
+				<li onclick="activePanel('australia');" ><img src="http://demo.kodersnkreators.com/wp-content/uploads/2018/04/australia_img-250x180.jpg" /></li>
+				<li onclick="activePanel('germany');" ><img src="http://demo.kodersnkreators.com/wp-content/uploads/2018/04/germany-image.jpg" /></li>-->
+            </ul>
+            <div class="tab-content coutry-tab-panels">
+                <div class="tab-pane active" style="min-height:300px;display:block;" id="canada">
+                    <div class="row">
+                        <div class="form-group col-sm-5 col-xs-12 country-corousel-panel">
+                            <h2>Profile</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+                        </div>
+                        <div class="form-group col-sm-7 col-xs-12">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12" style="height:200px;">
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <h2>Profile</h2>
+                                    <p>ajdgshflaksjflaksbdfljabsdcjagscgfakjshgd fkjahg s gfakjshgcfkjah gskjdgfakshgdfkjagsd</p>
+
+                                    <div class="row country-product-list">
+                                        <div class="col-sm-4 col-xs-12"> First </div>
+                                        <div class="col-sm-4 col-xs-12"> Second </div>
+                                        <div class="col-sm-4 col-xs-12"> Third </div>
+                                        <div class="col-sm-4 col-xs-12"> Fourth </div>
+                                        <div class="col-sm-4 col-xs-12"> Fifth </div>
+                                        <div class="col-sm-4 col-xs-12"> Sixth </div>
+                                    </div>
+                                    <div class="row">
+                                        <button type="button" class="btn btn-sm btn-dark">Check Eligibilty</button>
+                                        <button type="button" class="btn btn-sm btn-dark">Check Expert</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" style="min-height:300px;display:none;" id="australia">
+                    <div class="row">
+                        <div class="col-sm-5 col-xs-12 country-corousel-panel">
+                            <h2>Buzz</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+                        </div>
+                        <div class="col-sm-7 col-xs-12">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12" style="height:200px;">
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <h2>Buzz</h2>
+                                    <p>ajdgshflaksjflaksbdfljabsdcjagscgfakjshgd fkjahg s gfakjshgcfkjah gskjdgfakshgdfkjagsd</p>
+
+                                    <div class="row country-product-list">
+                                        <div class="col-sm-4 col-xs-12"> First </div>
+                                        <div class="col-sm-4 col-xs-12"> Second </div>
+                                        <div class="col-sm-4 col-xs-12"> Third </div>
+                                        <div class="col-sm-4 col-xs-12"> Fourth </div>
+                                        <div class="col-sm-4 col-xs-12"> Fifth </div>
+                                        <div class="col-sm-4 col-xs-12"> Sixth </div>
+                                    </div>
+                                    <div class="row">
+                                        <button type="button" class="btn btn-sm btn-dark">Check Eligibilty</button>
+                                        <button type="button" class="btn btn-sm btn-dark">Check Expert</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" style="min-height:300px;display:none;" id="germany">
+                    <div class="row">
+                        <div class="col-sm-5 col-xs-12 country-corousel-panel">
+                            <h2>Reference</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+                        </div>
+                        <div class="col-sm-7 col-xs-12">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12" style="height:200px;">
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <h2>Reference</h2>
+                                    <p>ajdgshflaksjflaksbdfljabsdcjagscgfakjshgd fkjahg s gfakjshgcfkjah gskjdgfakshgdfkjagsd</p>
+
+                                    <div class="row country-product-list">
+                                        <div class="col-sm-4 col-xs-12"> First </div>
+                                        <div class="col-sm-4 col-xs-12"> Second </div>
+                                        <div class="col-sm-4 col-xs-12"> Third </div>
+                                        <div class="col-sm-4 col-xs-12"> Fourth </div>
+                                        <div class="col-sm-4 col-xs-12"> Fifth </div>
+                                        <div class="col-sm-4 col-xs-12"> Sixth </div>
+                                    </div>
+                                    <div class="row">
+                                        <button type="button" class="btn btn-sm btn-dark">Check Eligibilty</button>
+                                        <button type="button" class="btn btn-sm btn-dark">Check Expert</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="country-section" style="height: 500px;">
             <div class="row contry-row mx-0">
@@ -526,41 +643,120 @@
     </footer>
     <!--Start JS-->
     <!--<script src="dist/js/jquery.min.js"></script>-->
+    <!--<script src="dist/js/finalCustom.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/custom.js"></script>
-    <script src="dist/js/owl.carousel.min.js"></script>
+    <script src="dist/js/owl.carousel.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!--<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/dist/js/jquery.flexisel.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/bootstrap.min.js"></script>-->
+    <script src="dist/js/custom.js"></script>
+    <!--<script src="<?php echo get_template_directory_uri(); ?>/dist/js/finalCustom1.js"></script>-->
+    <script src="dist/js/formValidation.js"></script>
+
     <script>
         $('.carousel').carousel();
     </script>
     <script>
         $(document).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                items: 2,
-                margin: 20,
-                autoplay: true,
-                mouseDrag: true,
-                touchDrag: true,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 1,
-                        nav: true,
-                    },
-                    1000: {
-                        items: 2,
-                        nav: true,
-                        margin: 20
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    items: 2,
+                    margin: 20,
+                    autoplay: true,
+                    mouseDrag: true,
+                    touchDrag: true,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 1,
+                            nav: true,
+                        },
+                        1000: {
+                            items: 2,
+                            nav: true,
+                            margin: 20
+                        }
                     }
-                }
+                })
             })
-        })
+            /*============ Carousels =======*/
+        $(window).load(function() {
+            $("#flexiselDemo1").flexisel();
+
+            $("#flexiselDemo2").flexisel({
+                visibleItems: 5,
+                itemsToScroll: 1,
+                animationSpeed: 200,
+                infinite: true,
+                scrollType: "testi",
+                navigationTargetSelector: null,
+                autoPlay: {
+                    enable: false,
+                    interval: 5000,
+                    pauseOnHover: true
+                },
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1,
+                        itemsToScroll: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2,
+                        itemsToScroll: 1
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3,
+                        itemsToScroll: 1
+                    }
+                },
+            });
+
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 3,
+                itemsToScroll: 1,
+                scrollType: "country",
+                autoPlay: {
+                    enable: true,
+                    interval: 5000,
+                    pauseOnHover: true
+                }
+            });
+
+            $("#flexiselDemo4").flexisel({
+                infinite: false
+            });
+        });
+
+        /*===== Carousel buttons ======= */
+        $("#CountryLeft").click(function() {
+            $(".country-Left").click();
+        });
+        $("#CountryRight").click(function() {
+            $(".country-Right").click();
+        });
+
+        $("#TestiLeft").click(function() {
+            $(".testi-Left").click();
+        });
+        $("#TestiRight").click(function() {
+            $(".testi-Right").click();
+        });
+        /*===== Carousel buttons ======= */
+        function activePanel(key) {
+            $('div.coutry-tab-panels>div').css("display", "none");
+            $("#" + key).css("display", "block");
+        }
     </script>
     <script>
         $(document).ready(function() {
