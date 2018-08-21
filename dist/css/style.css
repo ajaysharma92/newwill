@@ -370,14 +370,64 @@ select {
 
 /*--- Search form ----*/
 
+
+/*Country Slider CSS*/
+
+.coutry-tab-panels {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.country-section {
+    position: relative;
+}
+
 .country-corousel-panel {
-    /*position: absolute;*/
-    border: 0px solid #AE0606;
-    border-radius: 5px;
-    background-color: #AE0606;
+    position: relative;
+    border-radius: 15px;
     color: #FFFFFF;
-    min-height: 300px;
-    padding: 5px;
+    padding: 5px 15px;
+    z-index: 1;
+    background: #e0e0e0;
+    font-family: var(--font-lato);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.country-corousel-panel.canada-bg {
+    background: url('../images/canada-slider-1.jpg') no-repeat;
+}
+
+.country-corousel-panel.australia-bg {
+    background: url('../images/australia-slider-2.jpg') no-repeat;
+}
+
+.country-corousel-panel.hongkong-bg {
+    background: url('../images/hongkong-slider-3.jpg') no-repeat;
+}
+
+.country-corousel-panel[class*="-bg"] {
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.country-corousel-panel::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    border-radius: 15px;
+    background: -moz-linear-gradient(top, rgba(210, 43, 43, 0.8) 0%, rgba(181, 28, 28, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(210, 43, 43, 0.8) 0%, rgba(181, 28, 28, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(210, 43, 43, 0.8) 0%, rgba(181, 28, 28, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3d22b2b', endColorstr='#b51c1c', GradientType=0);
+    /* IE6-9 */
 }
 
 div.country-product-list>div:before {
@@ -391,8 +441,211 @@ div.country-product-list>div:before {
 
 .carousel-tabs {
     width: 600px;
-    /* float: right; */
     position: absolute;
     right: 0px;
     z-index: 1;
+}
+
+.country-corousel-panel>p {
+    margin: 10px 0;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.country-corousel-benefits {
+    font-family: var(--font-lato);
+}
+
+.country-corousel-benefits>.row {
+    bottom: 1%;
+    position: absolute;
+}
+
+.country-section .pre-sld,
+.country-section .nxt-sld {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 23px;
+    color: #d52727;
+}
+
+.country-section .pre-sld {
+    right: 40px;
+}
+
+.country-section .pre-sld:hover,
+.country-section .nxt-sld:hover {
+    color: #b70000;
+}
+
+@media (max-width: 765px) {
+    .country-corousel-benefits>.row {
+        bottom: 0;
+        position: relative;
+    }
+    .nbs-flexisel-container {
+        position: relative!important;
+        max-width: 100%!important;
+    }
+}
+
+
+/*Social Media Icons*/
+
+#float-social-icons.wrapper {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#float-social-icons ul {
+    list-style: none;
+}
+
+#float-social-icons ul li {
+    width: 40px;
+    height: 40px;
+    margin: 2px 0;
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+#float-social-icons ul li .fab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#float-social-icons ul li.facebook {
+    background: #3b5999;
+}
+
+#float-social-icons ul li.twitter {
+    background: #55acee;
+}
+
+#float-social-icons ul li.linkedin {
+    background: #0077B5;
+}
+
+#float-social-icons ul li.google {
+    background: #dd4b39;
+}
+
+#float-social-icons ul li.whatsapp {
+    background: #25d366;
+}
+
+#float-social-icons .slider {
+    position: absolute;
+    top: 0;
+    left: 39px;
+    width: 0px;
+    height: 40px;
+    line-height: 15px;
+    background: #eebb5c;
+    text-align: center;
+    border-radius: 0px;
+    transition: all 0.2s ease;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    padding-top: 6px;
+}
+
+#float-social-icons .slider p {
+    text-transform: capitalize;
+    font-size: 10px;
+    opacity: 0;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    color: #fff;
+}
+
+#float-social-icons ul li.facebook div.slider {
+    background: #647eb7;
+}
+
+#float-social-icons ul li.twitter div.slider {
+    background: #7fd5f6;
+}
+
+#float-social-icons ul li.linkedin div.slider {
+    background: #2692ca;
+}
+
+#float-social-icons ul li.google div.slider {
+    background: #eea59c;
+}
+
+#float-social-icons ul li.whatsapp div.slider {
+    background: #82d47e;
+}
+
+#float-social-icons ul li:hover .slider {
+    width: 100px;
+}
+
+#float-social-icons ul li:hover .slider p {
+    opacity: 1;
+}
+
+a.expert-call {
+    text-decoration: none;
+    color: #000;
+}
+
+.expert-call>p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--font-lato);
+    margin: 0;
+    line-height: 22px;
+}
+
+.expert-call>p>span {
+    font-size: 15px;
+    color: #b70000;
+}
+
+.expert-call>p>span>i {
+    color: #fff;
+    background: #b70000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    padding: 2px 0px 0 4px;
+    margin-right: 3px;
+    position: relative;
+    top: -2px;
 }
