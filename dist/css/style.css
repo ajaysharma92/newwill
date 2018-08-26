@@ -707,3 +707,26 @@ span.newheading {
     color: #fff;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
 }
+
+.clnt-quato::before,
+.clnt-quato::after {
+    position: absolute;
+    font-family: var(--font-awesome);
+    font-weight: bold;
+    color: #404040;
+    font-size: 3em;
+    opacity: 0.12;
+}
+
+.clnt-quato::before {
+    content: "\f10d";
+    top: -4px;
+    left: 17px;
+    z-index: 10;
+}
+
+.clnt-quato::after {
+    content: "\f10e";
+    bottom: -10px;
+    right: 16px;
+}
