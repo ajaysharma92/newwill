@@ -961,3 +961,19 @@ span.newheading {
         right: -2.5%;
     }
 }
+
+
+/*-- Landing Page --*/
+
+.country-img-bg {
+    background: url('../images/canada-country-2.jpg') no-repeat;
+    min-height: 450px;
+    background-position: left -39px;
+}
+
+.can-country {
+    background: url('../images/canada-country-2.jpg') no-repeat;
+    min-height: 445px;
+    background-size: cover;
+    background-position: top center;
+}
